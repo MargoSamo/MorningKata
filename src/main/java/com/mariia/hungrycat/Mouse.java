@@ -1,4 +1,4 @@
-package com.mariia.one;
+package com.mariia.hungrycat;
 
 public class Mouse {
     private String mouseName;

@@ -1,13 +1,13 @@
-package com.mariia.one;
+package com.mariia.hungrycat;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class MainTest {
+class CatTest {
 
     @Test
-    public void shouldGetSumWeight() {
+    public void catShouldWeighMoreWhenEatMouse() {
         //Given
         var cat = new Cat("One", 5);
         var mouse = new Mouse("One", 5);
@@ -18,7 +18,4 @@ class MainTest {
         //Then
         assertEquals(10, (cat.getCatWeight() + mouse.getMouseWeight()));
     }
-
-
-
 }

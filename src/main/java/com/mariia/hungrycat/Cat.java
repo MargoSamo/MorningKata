@@ -1,4 +1,4 @@
-package com.mariia.one;
+package com.mariia.hungrycat;
 
 public class Cat {
     private String catName;
@@ -29,7 +29,7 @@ public class Cat {
         if (mouse.getMouseName().isEmpty() || mouse.getMouseWeight() < 0 ) {
             System.out.println("Кошка не может поймать не существующую мышку!");
         } else {
-            System.out.println("Я коша " + catName + " с весом " + catWeight + " поймала мышку " + mouse.getMouseName() + " мой вес стал " + (catWeight + mouse.getMouseWeight()));
+            System.out.println("I am cat " + catName + " my weight " + catWeight + " I catch " + mouse.getMouseName() + " my weight now " + (catWeight + mouse.getMouseWeight()));
         }
     }
 }
