@@ -5,17 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d195ef40-7607-49dd-817c-0cd62fa60a43" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/BreedingCat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/Female.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/Male.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/Sex.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/mariia/breeding/FemaleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariia/hungrycat/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariia/hungrycat/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariia/hungrycat/Mouse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariia/hungrycat/Mouse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mariia/hungrycat/MainTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mariia/hungrycat/CatTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/BreedingCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/BreedingCat.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/Female.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/CatFemale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/Male.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/CatMale.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/mariia/breeding/FemaleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mariia/breeding/CatFemaleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
