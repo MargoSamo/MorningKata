@@ -9,8 +9,8 @@ class CatFemaleTest {
     @Test
     public void femaleCatShouldBreedingMaleCatRezNewCat() {
         // Given
-        var male = new CatMale();
-        var female = new CatFemale();
+        var male = new CatMale(null, null);
+        var female = new CatFemale(null, null);
 
         // When
         var cats = female.breed(male);
@@ -26,9 +26,10 @@ class CatFemaleTest {
     @Test
     public void childShouldKnowParents() {
         // Given
-        var male = new CatMale();
-        var female = new CatFemale();
+        var male = new CatMale(null, null);
+        var female = new CatFemale(null, null);
         var cats = female.breed(male);
+
 
         for (BreedingCat cat : cats) {
             // When
@@ -43,6 +44,14 @@ class CatFemaleTest {
 
     @Test
     public void motherShouldKnowChild() {
+        // Given
+        var male = new CatMale(null, null);
+        var female = new CatFemale(null, null);
+        var cats = female.breed(male);
+
+        // When
+
+        // Then
 
     }
 }
