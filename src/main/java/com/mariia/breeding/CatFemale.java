@@ -19,6 +19,7 @@ public class CatFemale extends BreedingCat{
         list.add(new CatMale(this, catMale));
         list.add(new CatFemale(this, catMale));
         list.add(new CatFemale(this, catMale));
+
         children.addAll(list);
 
         return list;

@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d195ef40-7607-49dd-817c-0cd62fa60a43" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/GenerationCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/mariia/breeding/GenerationCounterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/BreedingCat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/BreedingCat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/CatFemale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/CatFemale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/CatMale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/CatMale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/mariia/breeding/CatFemaleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mariia/breeding/CatFemaleTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,9 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -62,7 +62,7 @@
       <recent name="com.mariia.one" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.CatFemaleTest.childShouldKnowParents">
+  <component name="RunManager" selected="Gradle.CatFemaleTest.motherShouldKnowChild">
     <configuration name="CatFemaleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -132,7 +132,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="FemaleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="CatFemaleTest.motherShouldKnowChild" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -145,7 +145,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.mariia.breeding.FemaleTest&quot;" />
+            <option value="&quot;com.mariia.breeding.CatFemaleTest.motherShouldKnowChild&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -180,11 +180,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CatFemaleTest.motherShouldKnowChild" />
         <item itemvalue="Gradle.CatFemaleTest.childShouldKnowParents" />
         <item itemvalue="Gradle.CatFemaleTest.femaleCatShouldBreedingMaleCatRezNewCat" />
         <item itemvalue="Gradle.CatFemaleTest" />
         <item itemvalue="Gradle.FemaleTest.femaleCatShouldBreedingMaleCatRezNewCat" />
-        <item itemvalue="Gradle.FemaleTest" />
       </list>
     </recent_temporary>
   </component>

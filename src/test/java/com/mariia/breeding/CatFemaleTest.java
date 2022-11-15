@@ -1,6 +1,9 @@
 package com.mariia.breeding;
 
 import org.junit.jupiter.api.Test;
+
+import java.util.ArrayList;
+import java.util.List;
 import java.util.stream.Collectors;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -48,10 +51,15 @@ class CatFemaleTest {
         var male = new CatMale(null, null);
         var female = new CatFemale(null, null);
         var cats = female.breed(male);
+        var cats2 = female.breed(male);
+        List<BreedingCat> childrenAll = new ArrayList<>();
+        childrenAll.addAll(cats);
+        childrenAll.addAll(cats2);
 
         // When
+        var children = female.getChildren();
 
         // Then
-
+        assertEquals(childrenAll, children);
     }
 }
