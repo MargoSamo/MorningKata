@@ -1,6 +1,9 @@
 package com.mariia.breeding;
 
 import org.junit.jupiter.api.Test;
+
+import java.util.stream.Collectors;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class GenerationCounterTest {
@@ -10,14 +13,17 @@ class GenerationCounterTest {
         // Given
         var male = new CatMale(null, null);
         var female = new CatFemale(null, null);
-        var cats = female.breed(male);
-        var maleTwo = new CatMale(female, male);
-        var femaleTwo = new CatFemale(female, male);
-        var catsTwo = femaleTwo.breed(maleTwo);
-        var maleThree = new CatMale(femaleTwo, maleTwo);
-        var femaleThree = new CatFemale(femaleTwo, maleTwo);
-        var catsThree = femaleThree.breed(maleThree);
+        var catsSecondGeneration = female.breed(male);
 
+        var secondGenerationCatFemale = (CatFemale) catsSecondGeneration.stream().filter((breedingCat) -> breedingCat.getSex() == Sex.FEMALE).findFirst().get();
+        var secondGenerationCatMale = (CatMale) catsSecondGeneration.stream().filter((breedingCat) -> breedingCat.getSex() == Sex.MALE).findFirst().get();
+        var catsThreeGeneration = secondGenerationCatFemale.breed(secondGenerationCatMale);
+
+        var threeGenerationCatFemale = (CatFemale) catsThreeGeneration.stream().filter((breedingCat) -> breedingCat.getSex() == Sex.FEMALE).findFirst().get();
+        var threeGenerationCatMale = (CatMale) catsThreeGeneration.stream().filter((breedingCat) -> breedingCat.getSex() == Sex.MALE).findFirst().get();
+        var catsFourGeneration = threeGenerationCatFemale.breed(threeGenerationCatMale);
+
+        var generationCounter = new GenerationCounter();
 
         // When
 
