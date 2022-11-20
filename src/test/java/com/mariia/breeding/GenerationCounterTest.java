@@ -2,8 +2,6 @@ package com.mariia.breeding;
 
 import org.junit.jupiter.api.Test;
 
-import java.util.stream.Collectors;
-
 import static org.junit.jupiter.api.Assertions.*;
 
 class GenerationCounterTest {
@@ -26,12 +24,9 @@ class GenerationCounterTest {
         var generationCounter = new GenerationCounter();
 
         // When
-
+        int numberOfGenerations = generationCounter.countNumberOfGenerations(catsFourGeneration.stream().findFirst().get());
 
         // Then
-
+        assertEquals(4, numberOfGenerations);
     }
-
-
-
 }
