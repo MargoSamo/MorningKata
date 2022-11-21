@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d195ef40-7607-49dd-817c-0cd62fa60a43" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/GenerationCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/GenerationCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/CatFemale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mariia/breeding/CatFemale.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/mariia/breeding/CatFemaleTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mariia/breeding/CatFemaleTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mariia/breeding/GenerationCounterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/mariia/breeding/GenerationCounterTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,8 +60,8 @@
       <recent name="com.mariia.one" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GenerationCounterTest.childShouldKnowHowManyGenerationFrontHim">
-    <configuration name="CatFemaleTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.CatFemaleTest.catFemaleKnowChild">
+    <configuration name="CatFemaleTest.catFemaleKnowChild" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -75,7 +74,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;com.mariia.breeding.CatFemaleTest&quot;" />
+            <option value="&quot;com.mariia.breeding.CatFemaleTest.catFemaleKnowChild&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -179,11 +178,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.CatFemaleTest.catFemaleKnowChild" />
         <item itemvalue="Gradle.GenerationCounterTest.childShouldKnowHowManyGenerationFrontHim" />
         <item itemvalue="Gradle.CatFemaleTest.motherShouldKnowChild" />
         <item itemvalue="Gradle.CatFemaleTest.childShouldKnowParents" />
         <item itemvalue="Gradle.CatFemaleTest.femaleCatShouldBreedingMaleCatRezNewCat" />
-        <item itemvalue="Gradle.CatFemaleTest" />
       </list>
     </recent_temporary>
   </component>

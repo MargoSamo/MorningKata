@@ -63,4 +63,20 @@ class CatFemaleTest {
         // Then
         assertEquals(childrenAll, children);
     }
+
+    @Test
+    public void catFemaleKnowChild() {
+        // Given
+        var male = new CatMale(null, null);
+        var female = new CatFemale(null, null);
+        var cats = female.breed(male);
+
+        var oneCat = cats.stream().findFirst().get();
+
+        // When
+        var result = female.isMyChild(oneCat);
+
+        // Then
+        assertTrue(result);
+    }
 }

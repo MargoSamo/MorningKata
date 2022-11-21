@@ -28,6 +28,11 @@ public class CatFemale extends BreedingCat{
     public List<BreedingCat> getChildren() {
         return children;
     }
+
+
+    public boolean isMyChild(BreedingCat oneCat) {
+        return oneCat.getMother().equals(CatFemale.this);
+    }
 }
 
 
